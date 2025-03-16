@@ -37,7 +37,7 @@ force_profile_no = int(args.profile)
 verbose_level = int(args.verbose)
 preload =int(args.preload)
 
-quantizeTransformer = args.quantize_transformer
+quantizeTransformer = False
 
 transformer_choices_t2v=["ckpts/hunyuan-video-t2v-720p/transformers/hunyuan_video_720_bf16.safetensors", "ckpts/hunyuan-video-t2v-720p/transformers/hunyuan_video_720_quanto_int8.safetensors", "ckpts/hunyuan-video-t2v-720p/transformers/fast_hunyuan_video_720_quanto_int8.safetensors"]
 transformer_choices_i2v=["ckpts/hunyuan-video-i2v-720p/transformers/hunyuan_video_i2v_720_bf16v2.safetensors", "ckpts/hunyuan-video-i2v-720p/transformers/hunyuan_video_i2v_720_quanto_int8v2.safetensors", "ckpts/hunyuan-video-t2v-720p/transformers/fast_hunyuan_video_720_quanto_int8.safetensors"]
