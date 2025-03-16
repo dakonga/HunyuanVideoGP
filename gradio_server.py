@@ -1419,7 +1419,7 @@ if __name__ == "__main__":
 
     server_name = args.server_name
     if len(server_name) == 0:
-        server_name = os.getenv("SERVER_NAME", "localhost")
+        server_name = os.getenv("SERVER_NAME", "0.0.0.0")
 
         
     demo = create_demo()
